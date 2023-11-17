@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: hsl(208, 100%, 59%);
+}
+.custom-bg-light {
+    background-color: #309fff;
+}
+#find{
+    border-radius: 20px;
+    width: 250px;
+    border: 1px solid white;
+}
+#find-png:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+.find{
+    margin-right: 100px;
+    display: flex;
+}
+#login:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+#shopping:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+.carousel-control-prev:hover{
+    filter: invert(1);
+}
+.carousel-control-next:hover{
+    filter: invert(1);
+}
+.fw-bolder{
+    text-align: center !important;
+    font-size: 1.3rem;
+    text-overflow: ellipsis;
+    max-height: 30px ;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.history-book{
+    padding-left: 37px;
+
+}
+.py-5{
+    margin-top: -66px;
+}
+div.col.mb-5{
+    width: 350px !important;
+}
+.col{
+    width: 300px !important;
+}
+.col:hover{
+    box-shadow: 1px 1px 5px #888888;
+    cursor: pointer;
+}
+.card-img-top{
+    height: 487.94px;
+}
+#find{
+    border-radius: 20px;
+    width: 250px;
+    border: 1px solid white;
+}
+#find-png:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+.find{
+    margin-right: 100px;
+    display: flex;
+}
+
+.find_dropmenu{
+    margin-top: 38px;
+}
+
+.card-body p{
+    white-space: pre-wrap;
+}
+
+.img__search{
+    width: 50px;
+    object-fit: contain;
+}
+
+.text-truncate{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #309fff;
+}
+.custom-bg-light {
+    background-color: #309fff;
+}
+#find{
+    border-radius: 20px;
+    width: 250px;
+    border: 1px solid white;
+}
+#find-png:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+.find{
+    margin-right: 100px;
+    display: flex;
+}
+#login:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+#shopping:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+.breadcrumb-a{
+    color: white;
+}
+.breadcrumb-a:hover{
+    color: rgb(247, 88, 88);
+}
+.breadcrumb-item.active{
+    color: white !important;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    color: white !important;
+}
+button.btn.btn-toggle.align-items-center.rounded.collapsed{
+    color: white;
+    text-transform: uppercase;
+}
+.mb-1{
+    text-align: center;
+    background-color: #309fff;
+}
+.link-dark{
+    text-decoration: none !important;
+}
+.btn-check:focus + .btn, .btn:focus {
+    box-shadow: none !important;
+}
+.btn:h{
+    color: white !important;
+}
+.col:hover{
+    box-shadow: 1px 1px 5px #888888;
+    cursor: pointer;
+}
+.link-dark {
+    color: white !important;
+}
+.bg-white {
+    background-color: white !important;
+    border: 1px solid #ccc !important; /* Tạo viền xung quanh hộp */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+.pagination{
+    --bs-pagination-focus-box-shadow: none !important;
+}
+.col-auto.col-md-3.col-xl-2.px-sm-2.px-0.bg-dark{
+    background-color: white !important;
+    border: 1px solid #ccc !important; /* Tạo viền xung quanh hộp */
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+.form-check-label{
+    color: #0d6efd;
+}
+.fw-bolder{
+    text-align: center !important;
+    font-size: 1.3rem;
+    text-overflow: ellipsis;
+    max-height: 30px ;
+    overflow: hidden;
+    white-space: nowrap;
+}
+div.col.mb-5{
+    width: 350px !important;
+}
+.card-img-top{
+    height: 487.94px;
+}
+
